@@ -12,6 +12,7 @@ h2 {
 #title {
   background-color: #ff4c68;
   color: #fff;
+
 }
 
 .first_heading {
@@ -22,7 +23,7 @@ h2 {
 }
 
 .container-fluid {
-  padding: 5% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -54,12 +55,16 @@ h2 {
 .rotate45 {
   transform: rotate(25deg);
   width: 60%;
+  position: absolute;
+  right: 30%;
 }
 
 /* Feature Section */
 #features {
+  background-color: white;
   text-align: center;
   padding: 7% 15%;
+  position: relative;
 }
 
 .feature-box {
