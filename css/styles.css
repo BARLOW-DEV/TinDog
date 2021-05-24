@@ -61,7 +61,7 @@ h2 {
 
 /* Feature Section */
 #features {
-  background-color: white;
+  background-color: #fff;
   text-align: center;
   padding: 7% 15%;
   position: relative;
@@ -126,4 +126,37 @@ h2 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 1200px) {
+  #title {
+    text-align: center;
+  }
+  .rotate45 {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 20%;
+  color: #fff;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  padding: 20px 0px;
+}
+
+#footer {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.fab-footer {
+  padding: 1%;
 }
